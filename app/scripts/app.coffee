@@ -18,6 +18,9 @@ angular.module('frontendApp', [
       .when '/campaign/:campaignId',
         templateUrl: 'views/campaign.html'
         controller: 'CampaignCtrl'
+      .when '/campaign/:campaignId',
+        templateUrl: 'views/campaign.html'
+        controller: 'CampaignCtrl'
 
       # possibly deprecated
       .when '/spend/:campaignId/:contributorId?',

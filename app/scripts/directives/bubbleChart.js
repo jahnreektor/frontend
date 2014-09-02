@@ -17,7 +17,7 @@
         
         var render = function(){
           element.empty();
-
+	  console.log("rendering bubblecharat");
           var width = 1170;
           var height = 400;
 
